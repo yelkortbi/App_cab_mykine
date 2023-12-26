@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="navbar"
+>
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Patient</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200&family=Oxygen&family=Poppins:ital,wght@0,200;0,400;1,100;1,200;1,300&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/webjars/bootstrap/5.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/CSS/styleEditStudent.css">
+    <style>
+        label {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+<div layout:fragment="content1">
+    <div class="col-md-6 offset-3">
+        <form method="post" th:action="@{/admin/save(page=${page}, keyword=${keyword})}">
+            <div>
+                <label>Id :</label>
+                <label th:text="${patient.idPatient}"></label>
+                <input class="form-control" type="hidden" name="idPatient" th:value="${patient.idPatient}">
+                <span class="text-danger" th:errors="${patient.idPatient}"></span>
+            </div>
+            <!-- Similar blocks for other form fields -->
+
+            <div>
+                <label for="name">Nom de Patient</label>
+                <input id="name" class="form-control" type="text" name="name" th:value="${patient.name}">
+                <span class="text-danger" th:errors="${patient.name}"></span>
+            </div>
+            <div>
+                <label>Date de rend</label>
+                <input class="form-control" type="date" name="dateRdv" th:value="${patient.dateRdv}">
+                <span class="text-danger" th:errors="${patient.dateRdv}"></span>
+            </div>
+            <div>
+                <label>Type d'assurance</label>
+                <input class="form-control" type="text" name="typeAssurance" th:value="${patient.typeAssurance}">
+                <span class="text-danger" th:errors="${patient.typeAssurance}"></span>
+            </div>
+            <button class="btn btn-success m-lg-2" type="submit">Save</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>

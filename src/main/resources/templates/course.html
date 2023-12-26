@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="navbar"
+>
+<meta charset="UTF-8">
+<title>Branchs</title>
+<link rel="stylesheet" type="text/css" href="/webjars/bootstrap/5.1.3/css/bootstrap.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200&family=Oxygen&family=Poppins:ital,wght@0,200;0,400;1,100;1,200;1,300&family=Roboto:wght@100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/CSS/styleBranch.css">
+
+<script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
+
+</head>>
+<body>
+<div layout:fragment="content1">
+    <div id="carouselExampleControls" class="carousel" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="card">
+                    <div class="img-wrapper"><img src="/Imgs/Prise%20en%20charge%20des%20sportifs%20Prévention%20et%20entretien.jpg" class="d-block w-100" alt="..."> </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Prise en charge des sportifs : Prévention et entretien</h5>
+                        <p class="card-text">Chez un sportif, la blessure fait partie du jeu.
+                            Il a besoin d’un suivi, non seulement pendant la blessure mais aussi en entretien et surtout en prévention.
+                            N’attendez pas la blessure, agissez avant !
+                            Peu importe l’ancienneté de votre blessure, le traitement n’est jamais trop tard.</p>
+                        <!--            <a th:href="@{course}" class="btn btn-success">Join</a>-->
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card">
+                    <div class="img-wrapper"><img src="/Imgs/Système%20cardio-respiratoire%20chez%20l’enfant%20et%20l’adulte.jpg" class="d-block w-100" alt="..."> </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Système cardio-respiratoire chez l’enfant et l’adulte</h5>
+                        <p class="card-text">La kinésithérapie respiratoire</p>
+                        <p class="card-text">La rééducation cardio-respiratoire</p>
+                        <!--            <a th:href="@{course}" class="btn btn-success">Rejoindre</a>-->
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card">
+                    <div class="img-wrapper"><img src="/Imgs/Rééducation%20maxillo-.jpg" alt="..."> </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Rééducation maxillo-faciale</h5>
+                        <p class="card-text">La rééducation maxillo-faciale est un domaine à la fois restreint par sa localisation et très vaste par ses applications.
+                            Les pathologies traitées en rééducation maxillo-faciale sont très diverses :
+                            Les œdèmes de la face et du cou, les cicatrices d’origine traumatiques ou chirurgicales, les paralysies faciales, les fractures de la face, les limitations d’ouverture buccale (le dysfonctionnement de l’articulation temporo-mandibulaire (ATM) …</p>
+                        <!--            <a th:href="@{course}" class="btn btn-success">Join</a>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+</body>
+</html>

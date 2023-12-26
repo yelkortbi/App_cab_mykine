@@ -1,0 +1,64 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1001%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(117%2c 185%2c 255%2c 1)'%3e%3c/rect%3e%3cpath d='M1265.982%2c444.672C1302.118%2c442.235%2c1322.046%2c407.058%2c1340.406%2c375.838C1359.157%2c343.953%2c1382.146%2c308.443%2c1365.529%2c275.396C1347.822%2c240.181%2c1305.295%2c224.984%2c1265.982%2c227.831C1231.016%2c230.364%2c1206.454%2c258.021%2c1188.628%2c288.209C1170.39%2c319.096%2c1155.979%2c355.047%2c1171.876%2c387.202C1189.335%2c422.517%2c1226.676%2c447.322%2c1265.982%2c444.672' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M338.56836672523104 444.5799320515156L246.02136322525325 334.2867081465881 228.2751428203036 537.1269355514934z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1303.4286272163358 313.9787540914115L1350.0907715986775 192.41971202580962 1228.5317295330758 145.7575676434678 1181.8695851507339 267.31660970906967z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M795.77%2c286.716C846.41%2c287.427%2c896.329%2c267.297%2c923.03%2c224.262C951.17%2c178.908%2c956.021%2c119.831%2c927.179%2c74.919C900.116%2c32.777%2c845.854%2c26.128%2c795.77%2c26.095C745.606%2c26.062%2c690.573%2c32.16%2c664.058%2c74.744C636.412%2c119.146%2c646.952%2c176.344%2c674.557%2c220.771C700.576%2c262.645%2c746.476%2c286.023%2c795.77%2c286.716' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M879.5652709883716 92.87054448145038L1002.7617775737866 86.41408915588016 996.3053222482164-36.782417429534846 873.1088156628014-30.325962103964628z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1178.343%2c469.217C1218.53%2c469.564%2c1261.129%2c459.243%2c1281.638%2c424.682C1302.477%2c389.564%2c1292.223%2c346.443%2c1272.375%2c310.755C1251.83%2c273.814%2c1220.599%2c240.045%2c1178.343%2c238.947C1134.551%2c237.809%2c1096.406%2c267.169%2c1075.445%2c305.636C1055.39%2c342.44%2c1055.773%2c387.446%2c1078.09%2c422.925C1099.096%2c456.319%2c1138.893%2c468.877%2c1178.343%2c469.217' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1001'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+}
+.leftWay{
+    height: 100vh;
+    width: 100%;
+    background: url("/Imgs/my_kine_proprio.png");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    position: absolute;
+    left: 0px;
+    height: 100%;
+}
+.rightWay {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 50%;
+    text-align: center;
+}
+.rightWay h1{
+    color: whitesmoke;
+}
+h1{
+    color: black;
+    animation-name: bounce;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+}
+/*.container {*/
+/*    min-height: 100vh;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: flex-end;*/
+/*}*/
+
+/*footer {*/
+/*    margin-top: auto;*/
+/*}*/
+.rightWay .container {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 216px;
+    text-align: center;
+}

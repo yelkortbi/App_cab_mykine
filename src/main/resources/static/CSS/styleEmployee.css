@@ -1,0 +1,12 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    height: 100vh;
+    width: 100%;
+    background: url("/Imgs/WhatsApp Image 2023-12-12 à 19.10.17_cb04359f.jpg");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat ;
+}
